@@ -1,18 +1,51 @@
-import {Schema} from "mongoose";
+import {model, Schema} from "mongoose";
+
 interface IGame {
-    schedule:
-        summary:"Los Angeles Rams @ Cincinnati Bengals"
-    details:
-        status:"final"
-    teams:
-        lastUpdated:"2022-02-14T03:02:18.640Z"
-    gameId:278943
-    odds:
-        venue:
-        scoreboard:score:
-        currentPeriod:4
-    periodTimeRemaining:"0:00"
+
 }
-const gameSchema = new Schema({
+
+const odds = {
+    open: {
+        total: {type: Number},
+        overOdds: {type: Number},
+        underOdds: {type: Number},
+    },
+    current: {
+        total: {type: Number},
+        overOdds: {type: Number},
+        underOdds: {type: Number},
+    },
+}
+export const gameSchema = new Schema({
+    schedule: {
+        date: {
+            type: Date,
+            required: false
+        }
+    },
+    summary: {type: String, required: true},
+    status: {type: String, required: true},
+    // teams: []
+    teams: [{type: String, required: false}],
+    lastUpdated: {type: Date, required: false},
+    gameId: {type: String},
+    //Relation ?
+    odds: [{
+        spread: {...odds},
+        moneyline: {...odds},
+        total: {...odds},
+        openDate: {type: Date}
+    }],
+    venue: [{type: String}],
+    scoreboard: {
+        score: {
+            away: {type: String, required: true},
+            home: {type: String, required: true}
+        },
+        currentPeriod: {type: Number},
+        periodTimeRemaining: {
+            type: String, default: '0:00'
+        }
+    }
 
 })
