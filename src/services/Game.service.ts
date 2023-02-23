@@ -1,7 +1,10 @@
-import {Expression, HydratedDocument, Model} from "mongoose";
+import {HydratedDocument, Document, Model} from "mongoose";
+import _ from 'lodash';
 import {IGame} from "../schema/Game.schema.js";
 import {logger} from "../init/logger.js";
 import {Game} from "../init/mongoose.js";
+import {cache} from "./Cache.service.js";
+
 
 //Saves bets to mongoDB and present data to the API, doesn't provide Bet placement
 export class GameService {
@@ -11,17 +14,41 @@ export class GameService {
 		this._model = model
 	}
 
+	//save new or update existing game
 	async save(data: IGame) {
-		//todo: update logic
 		const exists: HydratedDocument<IGame> | null = await this._model.findOne({gameId: data.gameId})
+		let game: HydratedDocument<IGame>
 		if (exists) {
-			Object.assign(exists, data)
-			exists.lastUpdated = new Date()
-			return await exists.save()
+			//todo: update logic
+			game = _.merge(exists, data)
+			// const game_upd = exists
+			game.lastUpdated = new Date()
+		} else {
+			game = await this._model.create(data)
 		}
-		const game: HydratedDocument<IGame> = await this._model.create(data)
 		await game.save()
+		//Kinda weird to put it here idk
+		await cache.set(game._id, JSON.stringify(game))
 	}
+
+	// { [key in keyof IGame]: IGame[key] }
+	async getOneBy(obj: Partial<IGame & { _id: string }>) {
+		const game: Document<IGame> = await this._model.findOne(obj).lean()
+		return game
+	}
+
+
 }
 
-export const bets = new GameService(Game)
+export const games = new GameService(Game)
+
+//util function to check if two mongoose model instances are differnet by a certain parameter , works recursively
+async function checkForUpdateR<T extends { [key: string]: any }>(old: HydratedDocument<T>, compare: T, params: string[]) {
+	return params.find((param) => {
+		const oldObj = old.toObject()
+		const instantly = oldObj[param] && oldObj[param] !== compare[param]
+		return instantly || Object.entries(oldObj).find((entry: any) => {
+			const [key, val] = entry
+		})
+	})
+}

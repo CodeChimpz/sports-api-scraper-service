@@ -1,7 +1,7 @@
 import {WinstonLoggerService} from "mein-winston-logger";
 
 export const logger = new WinstonLoggerService({
-    path: './logs',
-    console: true,
-    maxsize: 4000000
+	path: './logs',
+	console: true,
+	maxsize: 4000000
 })

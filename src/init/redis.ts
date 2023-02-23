@@ -1,3 +1,5 @@
 import Redis from "ioredis";
+import {config} from "dotenv";
 
-// export const queueClient = new Redis
+config()
+export const appCache = new Redis(String(process.env.REDIS_CACHE_URL))

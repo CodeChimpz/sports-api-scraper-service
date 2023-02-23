@@ -1,22 +1,23 @@
 import Redis from "ioredis";
 import {config} from "dotenv";
+import {appCache} from "../init/redis.js";
 
 config()
 
-export class CacheService {
-    redis: Redis
+export class Cache {
+	redis: Redis
 
-    constructor(redisClient: Redis) {
-        this.redis = redisClient
-    }
+	constructor(redisClient: Redis) {
+		this.redis = redisClient
+	}
 
-    async get(key: string, data: any) {
-        return this.redis.get(key)
-    }
+	async get(key: string) {
+		return this.redis.get(key)
+	}
 
-    async set(key: any, data: any) {
-        return this.redis.set(key, data)
-    }
+	async set(key: any, data: any) {
+		return this.redis.set(key, data)
+	}
 }
 
-export const cache = new CacheService(new Redis(String(process.env.REDIS_CACHE_URL)))
+export const cache = new Cache(appCache)
