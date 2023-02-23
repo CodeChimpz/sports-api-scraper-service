@@ -20,15 +20,16 @@ export class GameService {
 		let game: HydratedDocument<IGame>
 		if (exists) {
 			//todo: update logic
+			console.log(await checkForUpdateR<IGame>(exists, data, ['lastUpdated']))
 			game = _.merge(exists, data)
 			// const game_upd = exists
-			game.lastUpdated = new Date()
+			// game.lastUpdated = new Date()
 		} else {
 			game = await this._model.create(data)
 		}
-		await game.save()
+		// await game.save()
 		//Kinda weird to put it here idk
-		await cache.set(game._id, JSON.stringify(game))
+		// await cache.set(game._id, JSON.stringify(game))
 	}
 
 	// { [key in keyof IGame]: IGame[key] }
@@ -42,13 +43,17 @@ export class GameService {
 
 export const games = new GameService(Game)
 
-//util function to check if two mongoose model instances are differnet by a certain parameter , works recursively
-async function checkForUpdateR<T extends { [key: string]: any }>(old: HydratedDocument<T>, compare: T, params: string[]) {
-	return params.find((param) => {
+//util function to check if two mongoose model instances are different by a certain parameter , works recursively
+async function checkForUpdateR<T extends { [key: string]: any }>(old: HydratedDocument<T>, compare: T, params: string[]): Promise<boolean> {
+	return !!params.find((param): boolean => {
 		const oldObj = old.toObject()
-		const instantly = oldObj[param] && oldObj[param] !== compare[param]
-		return instantly || Object.entries(oldObj).find((entry: any) => {
+		const instantly: boolean = oldObj[param] && oldObj[param] !== compare[param]
+		console.log('instance', oldObj[param] !== compare[param], '1', oldObj[param], '2', compare[param])
+		return instantly || !!Object.entries(oldObj).find((entry: any) => {
 			const [key, val] = entry
+			if (typeof val === 'object' && compare[key]) {
+				return checkForUpdateR<T>(val, compare[key], params)
+			}
 		})
 	})
 }
