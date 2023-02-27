@@ -1,0 +1,51 @@
+config:
+  target: 'http://localhost:8082'
+  phases:
+    - duration: 1
+      arrivalRate: 1
+      name: Initial miss
+    - duration: 60
+      arrivalRate: 5
+      name: Basic
+  payload:
+    path: 'filters.csv'
+    fields:
+      - "teams"
+      - "date"
+      - "status"
+      - "league"
+      - "conference"
+      - "division"
+      - "skip"
+      - "limit"
+scenarios:
+  - name: 'Get by 1 filter'
+    flow:
+      - post:
+          url: '/games'
+          json:
+            filters:
+              teams:
+                - "{{ teams }}"
+                - "{{ teams }}"
+              date: "{{ date }}"
+              status: "{{ status }}"
+              league: "{{ league }}"
+              conference: "{{ conference }}"
+              division:
+                - "{{division}}"
+  - name: 'Get by a few'
+    flow:
+      - post:
+          url: '/games'
+          json:
+            filters:
+              teams:
+                - "{{ teams }}"
+                - "{{ teams }}"
+              date: "{{ date }}"
+              status: "{{ status }}"
+              league: "{{ league }}"
+              conference: "{{ conference }}"
+              division:
+                - "{{division}}"

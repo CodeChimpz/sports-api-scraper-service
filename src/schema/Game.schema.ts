@@ -1,4 +1,4 @@
-import {model, Schema} from "mongoose";
+import {Schema} from "mongoose";
 
 interface ITeam {
     team: string,
@@ -32,25 +32,23 @@ export interface IOdds<TOddType> {
 }
 
 type IOddsArray = Array<{
-    spread: {
-        open: ISpreadOdds,
-        current: ISpreadOdds
-    },
-    moneyline: {
-        open: IMoneyLineOdds,
-        current: IMoneyLineOdds
-    },
-    total: {
-        open: ITotalOdds,
-        current: ITotalOdds
-    }
+    spread: IOdds<ISpreadOdds>,
+    moneyline: IOdds<IMoneyLineOdds>,
+    total: IOdds<ITotalOdds>
 }>
 
 //
 export interface IGame {
     schedule: {
         date?: Date
-    }
+    },
+    details: {
+        league: string,
+        seasonType: string,
+        season: number,
+        conferenceGame: boolean,
+        divisionGame: boolean
+    },
     summary: string,
     status: string,
     //todo: team entity
@@ -60,7 +58,7 @@ export interface IGame {
     }
     lastUpdated?: Date
     gameId: string,
-    odds: Array<{ moneyline: IOdds<IMoneyLineOdds>, spread: IOdds<ISpreadOdds>, total: IOdds<ITotalOdds>, openDate: Date, lastUpdated: Date }>,
+    odds: IOddsArray,
     venue: string[],
     scoreboard: {
         score: {
@@ -75,82 +73,87 @@ export interface IGame {
 
 //todo: distinct documents and Schemas for Team and Odds ? Test if embed or relation works faster
 const teamSchema = {
-	team: {type: String},
-	location: {type: String},
-	mascot: {type: String},
-	abbreviation: {type: String},
-	conference: {type: String},
-	division: {type: String}
+  team: {type: String},
+  location: {type: String},
+  mascot: {type: String},
+  abbreviation: {type: String},
+  conference: {type: String},
+  division: {type: String}
 
 }
-
 const spreadSchema = {
-	away: {type: Number},
-	home: {type: Number},
-	awayOdds: {type: Number},
-	homeOdds: {type: Number}
+  away: {type: Number},
+  home: {type: Number},
+  awayOdds: {type: Number},
+  homeOdds: {type: Number}
 }
-
 const moneylineSchema = {
-	awayOdds: {type: Number},
-	homeOdds: {type: Number}
+  awayOdds: {type: Number},
+  homeOdds: {type: Number}
 }
-
 const totalSchema = {
-	total: {type: Number},
-	overOdds: {type: Number},
-	underOdds: {type: Number},
+  total: {type: Number},
+  overOdds: {type: Number},
+  underOdds: {type: Number},
+}
+const schemaDefinition = {
+  schedule: {
+    date: {
+      type: Date,
+    }
+  },
+  details: {
+    league: {type: String},
+    seasonType: {type: String},
+    season: {type: Number},
+    conferenceGame: {type: Boolean},
+    divisionGame: {type: Boolean}
+  },
+  summary: {type: String, required: true},
+  status: {type: String, required: true},
+  teams: {
+    home: teamSchema,
+    away: teamSchema
+  },
+  lastUpdated: {type: Date},
+  gameId: {type: String, required: true},
+  //todo : Relation ?
+  odds: [
+    {
+      spread: {
+        open: spreadSchema,
+        current: spreadSchema
+      },
+      moneyline: {
+        open: moneylineSchema,
+        current: moneylineSchema
+      },
+      total: {
+        open: totalSchema,
+        current: totalSchema
+      },
+      openDate: {type: Date},
+      lastUpdated: {type: Date}
+    }
+  ],
+  venue: {
+    name: {type: String},
+    city: {type: String},
+    state: {type: String},
+    neutralSite: {type: Boolean},
+  },
+  scoreboard: {
+    score: {
+      away: {type: String},
+      home: {type: String}
+    },
+    currentPeriod: {type: Number},
+    periodTimeRemaining: {
+      type: String
+    }
+  }
 }
 
-export const gameSchema = new Schema<IGame>({
-	schedule: {
-		date: {
-			type: Date,
-		}
-	},
-	summary: {type: String, required: true},
-	status: {type: String, required: true},
-	teams: {
-		home: teamSchema,
-		away: teamSchema
-	},
-	lastUpdated: {type: Date},
-	gameId: {type: String, required: true},
-	//todo : Relation ?
-	odds: [
-		{
-			spread: {
-				open: spreadSchema,
-				current: spreadSchema
-			},
-			moneyline: {
-				open: moneylineSchema,
-				current: moneylineSchema
-			},
-			total: {
-				open: totalSchema,
-				current: totalSchema
-			},
-			openDate: {type: Date},
-			lastUpdated: {type: Date}
-		}
-	],
-	venue: {
-		name: {type: String},
-		city: {type: String},
-		state: {type: String},
-		neutralSite: {type: Boolean},
-	},
-	scoreboard: {
-		score: {
-			away: {type: String, required: true},
-			home: {type: String, required: true}
-		},
-		currentPeriod: {type: Number},
-		periodTimeRemaining: {
-			type: String, default: '0:00'
-		}
-	}
-})
+export const gameSchema = new Schema<IGame>(schemaDefinition)
 
 
