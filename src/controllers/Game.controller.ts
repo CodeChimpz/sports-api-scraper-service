@@ -52,7 +52,7 @@ export class GameController {
   //get full data on a game with teams, odds and misc data by Id
   get = async (req: Request, res: Response): Promise<void> => {
     try {
-      const _id = req.params.id
+      const _id = req.params.id || req.body._id
       //try get from cache
       const from_cache = !(this as any).REQ_CACHE ? undefined : await cache.get<IGame>(_id)
       // get from db if CACHE MISS

@@ -3,6 +3,7 @@ import {config} from "dotenv";
 import {logger} from "./init/logger.js";
 import {processer} from "./processor.js";
 import {app} from "./app.js";
+import {registry} from "./init/registry.js";
 
 config()
 //bull options
@@ -35,6 +36,7 @@ queue.process(processer)
 app.listen(process.env.PORT, () => {
   logger.app.info('Server listening on', process.env.PORT)
 })
+await  registry.init()
 
 
 
