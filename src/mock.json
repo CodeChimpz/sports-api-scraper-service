@@ -1,0 +1,3358 @@
+{
+  "status": 200,
+  "time": "2023-02-24T12:41:56.941Z",
+  "games": 42,
+  "skip": 0,
+  "results": [
+    {
+      "summary": "Texas Rangers @ Kansas City Royals",
+      "details": {
+        "league": "MLB",
+        "seasonType": "preseason",
+        "season": 2023,
+        "conferenceGame": true,
+        "divisionGame": false
+      },
+      "schedule": {
+        "date": "2023-02-24T20:05:00.000Z",
+        "tbaTime": false
+      },
+      "status": "scheduled",
+      "teams": {
+        "away": {
+          "team": "Texas Rangers",
+          "location": "Texas",
+          "mascot": "Rangers",
+          "abbreviation": "TEX",
+          "conference": "American League",
+          "division": "West"
+        },
+        "home": {
+          "team": "Kansas City Royals",
+          "location": "Kansas City",
+          "mascot": "Royals",
+          "abbreviation": "KC",
+          "conference": "American League",
+          "division": "Central"
+        }
+      },
+      "lastUpdated": "2023-02-24T12:41:27.519Z",
+      "gameId": 294544,
+      "venue": {
+        "name": "Surprise Stadium",
+        "neutralSite": false,
+        "city": "Surprise",
+        "state": "AZ"
+      }
+    },
+    {
+      "summary": "Seattle Mariners @ San Diego Padres",
+      "details": {
+        "league": "MLB",
+        "seasonType": "preseason",
+        "season": 2023,
+        "conferenceGame": false,
+        "divisionGame": false
+      },
+      "schedule": {
+        "date": "2023-02-24T20:10:00.000Z",
+        "tbaTime": false
+      },
+      "status": "scheduled",
+      "teams": {
+        "away": {
+          "team": "Seattle Mariners",
+          "location": "Seattle",
+          "mascot": "Mariners",
+          "abbreviation": "SEA",
+          "conference": "American League",
+          "division": "West"
+        },
+        "home": {
+          "team": "San Diego Padres",
+          "location": "San Diego",
+          "mascot": "Padres",
+          "abbreviation": "SD",
+          "conference": "National League",
+          "division": "West"
+        }
+      },
+      "lastUpdated": "2023-02-24T12:41:27.563Z",
+      "gameId": 294545,
+      "venue": {
+        "name": "Peoria Stadium",
+        "neutralSite": false,
+        "city": "Peoria",
+        "state": "AZ"
+      }
+    },
+    {
+      "summary": "New York Knicks @ Washington Wizards",
+      "details": {
+        "league": "NBA",
+        "seasonType": "regular",
+        "season": 2022,
+        "conferenceGame": true,
+        "divisionGame": false
+      },
+      "schedule": {
+        "date": "2023-02-25T00:00:00.000Z",
+        "tbaTime": false
+      },
+      "status": "scheduled",
+      "teams": {
+        "away": {
+          "team": "New York Knicks",
+          "location": "New York",
+          "mascot": "Knicks",
+          "abbreviation": "NYK",
+          "conference": "Eastern",
+          "division": "Atlantic"
+        },
+        "home": {
+          "team": "Washington Wizards",
+          "location": "Washington",
+          "mascot": "Wizards",
+          "abbreviation": "WAS",
+          "conference": "Eastern",
+          "division": "Southeast"
+        }
+      },
+      "lastUpdated": "2023-02-24T12:41:29.411Z",
+      "gameId": 288062,
+      "venue": {
+        "name": "Capital One Arena",
+        "neutralSite": false,
+        "city": "Washington",
+        "state": "DC"
+      },
+      "odds": [
+        {
+          "spread": {
+            "open": {
+              "away": 2.5,
+              "home": -2.5,
+              "awayOdds": -110,
+              "homeOdds": -110
+            },
+            "current": {
+              "away": 1,
+              "home": -1,
+              "awayOdds": -110,
+              "homeOdds": -110
+            }
+          },
+          "moneyline": {
+            "open": {
+              "awayOdds": 116,
+              "homeOdds": -139
+            },
+            "current": {
+              "awayOdds": -100,
+              "homeOdds": -120
+            }
+          },
+          "total": {
+            "open": {
+              "total": 226,
+              "overOdds": -110,
+              "underOdds": -110
+            },
+            "current": {
+              "total": 226,
+              "overOdds": -110,
+              "underOdds": -110
+            }
+          },
+          "openDate": "2023-02-22T14:28:12.721Z",
+          "lastUpdated": "2023-02-24T12:33:42.390Z"
+        }
+      ]
+    },
+    {
+      "summary": "Miami Heat @ Milwaukee Bucks",
+      "details": {
+        "league": "NBA",
+        "seasonType": "regular",
+        "season": 2022,
+        "conferenceGame": true,
+        "divisionGame": false
+      },
+      "schedule": {
+        "date": "2023-02-25T00:30:00.000Z",
+        "tbaTime": false
+      },
+      "status": "scheduled",
+      "teams": {
+        "away": {
+          "team": "Miami Heat",
+          "location": "Miami",
+          "mascot": "Heat",
+          "abbreviation": "MIA",
+          "conference": "Eastern",
+          "division": "Southeast"
+        },
+        "home": {
+          "team": "Milwaukee Bucks",
+          "location": "Milwaukee",
+          "mascot": "Bucks",
+          "abbreviation": "MIL",
+          "conference": "Eastern",
+          "division": "Central"
+        }
+      },
+      "lastUpdated": "2023-02-24T12:41:29.458Z",
+      "gameId": 288064,
+      "venue": {
+        "name": "Fiserv Forum",
+        "neutralSite": false,
+        "city": "Milwaukee",
+        "state": "WI"
+      },
+      "odds": [
+        {
+          "spread": {
+            "open": {
+              "away": -0.5,
+              "home": 0.5,
+              "awayOdds": -110,
+              "homeOdds": -115
+            },
+            "current": {
+              "away": 1.5,
+              "home": -1.5,
+              "awayOdds": -110,
+              "homeOdds": -110
+            }
+          },
+          "moneyline": {
+            "open": {
+              "awayOdds": -112,
+              "homeOdds": -109
+            },
+            "current": {
+              "awayOdds": 105,
+              "homeOdds": -124
+            }
+          },
+          "total": {
+            "open": {
+              "total": 221,
+              "overOdds": -110,
+              "underOdds": -110
+            },
+            "current": {
+              "total": 219,
+              "overOdds": -110,
+              "underOdds": -110
+            }
+          },
+          "openDate": "2023-02-22T14:33:46.029Z",
+          "lastUpdated": "2023-02-24T12:33:42.498Z"
+        }
+      ]
+    },
+    {
+      "summary": "Cleveland Cavaliers @ Atlanta Hawks",
+      "details": {
+        "league": "NBA",
+        "seasonType": "regular",
+        "season": 2022,
+        "conferenceGame": true,
+        "divisionGame": false
+      },
+      "schedule": {
+        "date": "2023-02-25T00:30:00.000Z",
+        "tbaTime": false
+      },
+      "status": "scheduled",
+      "teams": {
+        "away": {
+          "team": "Cleveland Cavaliers",
+          "location": "Cleveland",
+          "mascot": "Cavaliers",
+          "abbreviation": "CLE",
+          "conference": "Eastern",
+          "division": "Central"
+        },
+        "home": {
+          "team": "Atlanta Hawks",
+          "location": "Atlanta",
+          "mascot": "Hawks",
+          "abbreviation": "ATL",
+          "conference": "Eastern",
+          "division": "Southeast"
+        }
+      },
+      "lastUpdated": "2023-02-24T12:41:29.497Z",
+      "gameId": 288066,
+      "venue": {
+        "name": "State Farm Arena",
+        "neutralSite": false,
+        "city": "Atlanta",
+        "state": "GA"
+      },
+      "odds": [
+        {
+          "spread": {
+            "open": {
+              "away": 1.5,
+              "home": -1.5,
+              "awayOdds": -110,
+              "homeOdds": -115
+            },
+            "current": {
+              "away": 1,
+              "home": -1,
+              "awayOdds": -110,
+              "homeOdds": -110
+            }
+          },
+          "moneyline": {
+            "open": {
+              "awayOdds": 105,
+              "homeOdds": -125
+            },
+            "current": {
+              "awayOdds": -105,
+              "homeOdds": -115
+            }
+          },
+          "total": {
+            "open": {
+              "total": 225.5,
+              "overOdds": -110,
+              "underOdds": -110
+            },
+            "current": {
+              "total": 225.5,
+              "overOdds": -110,
+              "underOdds": -110
+            }
+          },
+          "openDate": "2023-02-22T14:28:12.766Z",
+          "lastUpdated": "2023-02-24T12:33:42.436Z"
+        }
+      ]
+    },
+    {
+      "summary": "Charlotte Hornets @ Minnesota Timberwolves",
+      "details": {
+        "league": "NBA",
+        "seasonType": "regular",
+        "season": 2022,
+        "conferenceGame": false,
+        "divisionGame": false
+      },
+      "schedule": {
+        "date": "2023-02-25T01:00:00.000Z",
+        "tbaTime": false
+      },
+      "status": "scheduled",
+      "teams": {
+        "away": {
+          "team": "Charlotte Hornets",
+          "location": "Charlotte",
+          "mascot": "Hornets",
+          "abbreviation": "CHA",
+          "conference": "Eastern",
+          "division": "Southeast"
+        },
+        "home": {
+          "team": "Minnesota Timberwolves",
+          "location": "Minnesota",
+          "mascot": "Timberwolves",
+          "abbreviation": "MIN",
+          "conference": "Western",
+          "division": "Northwest"
+        }
+      },
+      "lastUpdated": "2023-02-24T12:41:29.610Z",
+      "gameId": 288067,
+      "venue": {
+        "name": "Target Center",
+        "neutralSite": false,
+        "city": "Minneapolis",
+        "state": "MN"
+      },
+      "odds": [
+        {
+          "spread": {
+            "open": {
+              "away": 7.5,
+              "home": -7.5,
+              "awayOdds": -110,
+              "homeOdds": -115
+            },
+            "current": {
+              "away": 7.5,
+              "home": -7.5,
+              "awayOdds": -110,
+              "homeOdds": -110
+            }
+          },
+          "moneyline": {
+            "open": {
+              "awayOdds": 260,
+              "homeOdds": -327
+            },
+            "current": {
+              "awayOdds": 240,
+              "homeOdds": -296
+            }
+          },
+          "total": {
+            "open": {
+              "total": 240,
+              "overOdds": -110,
+              "underOdds": -110
+            },
+            "current": {
+              "total": 240.5,
+              "overOdds": -110,
+              "underOdds": -110
+            }
+          },
+          "openDate": "2023-02-22T14:33:46.074Z",
+          "lastUpdated": "2023-02-24T12:33:42.612Z"
+        }
+      ]
+    },
+    {
+      "summary": "Brooklyn Nets @ Chicago Bulls",
+      "details": {
+        "league": "NBA",
+        "seasonType": "regular",
+        "season": 2022,
+        "conferenceGame": true,
+        "divisionGame": false
+      },
+      "schedule": {
+        "date": "2023-02-25T01:00:00.000Z",
+        "tbaTime": false
+      },
+      "status": "scheduled",
+      "teams": {
+        "away": {
+          "team": "Brooklyn Nets",
+          "location": "Brooklyn",
+          "mascot": "Nets",
+          "abbreviation": "BKN",
+          "conference": "Eastern",
+          "division": "Atlantic"
+        },
+        "home": {
+          "team": "Chicago Bulls",
+          "location": "Chicago",
+          "mascot": "Bulls",
+          "abbreviation": "CHI",
+          "conference": "Eastern",
+          "division": "Central"
+        }
+      },
+      "lastUpdated": "2023-02-24T12:41:29.551Z",
+      "gameId": 288070,
+      "venue": {
+        "name": "United Center",
+        "neutralSite": false,
+        "city": "Chicago",
+        "state": "IL"
+      },
+      "odds": [
+        {
+          "spread": {
+            "open": {
+              "away": 1,
+              "home": -1,
+              "awayOdds": -110,
+              "homeOdds": -115
+            },
+            "current": {
+              "away": 1.5,
+              "home": -1.5,
+              "awayOdds": -110,
+              "homeOdds": -110
+            }
+          },
+          "moneyline": {
+            "open": {
+              "awayOdds": -104,
+              "homeOdds": -117
+            },
+            "current": {
+              "awayOdds": 104,
+              "homeOdds": -124
+            }
+          },
+          "total": {
+            "open": {
+              "total": 225,
+              "overOdds": -110,
+              "underOdds": -110
+            },
+            "current": {
+              "total": 225,
+              "overOdds": -110,
+              "underOdds": -110
+            }
+          },
+          "openDate": "2023-02-22T14:33:46.139Z",
+          "lastUpdated": "2023-02-24T12:33:42.559Z"
+        }
+      ]
+    },
+    {
+      "summary": "Oklahoma City Thunder @ Phoenix Suns",
+      "details": {
+        "league": "NBA",
+        "seasonType": "regular",
+        "season": 2022,
+        "conferenceGame": true,
+        "divisionGame": false
+      },
+      "schedule": {
+        "date": "2023-02-25T03:00:00.000Z",
+        "tbaTime": false
+      },
+      "status": "scheduled",
+      "teams": {
+        "away": {
+          "team": "Oklahoma City Thunder",
+          "location": "Oklahoma City",
+          "mascot": "Thunder",
+          "abbreviation": "OKC",
+          "conference": "Western",
+          "division": "Northwest"
+        },
+        "home": {
+          "team": "Phoenix Suns",
+          "location": "Phoenix",
+          "mascot": "Suns",
+          "abbreviation": "PHX",
+          "conference": "Western",
+          "division": "Pacific"
+        }
+      },
+      "lastUpdated": "2023-02-24T12:41:29.727Z",
+      "gameId": 288068,
+      "venue": {
+        "name": "Footprint Center",
+        "neutralSite": false,
+        "city": "Phoenix",
+        "state": "AZ"
+      },
+      "odds": [
+        {
+          "spread": {
+            "open": {
+              "away": 8.5,
+              "home": -8.5,
+              "awayOdds": -115,
+              "homeOdds": -110
+            },
+            "current": {
+              "away": 7.5,
+              "home": -7.5,
+              "awayOdds": -110,
+              "homeOdds": -110
+            }
+          },
+          "moneyline": {
+            "open": {
+              "awayOdds": 308,
+              "homeOdds": -402
+            },
+            "current": {
+              "awayOdds": 261,
+              "homeOdds": -323
+            }
+          },
+          "total": {
+            "open": {
+              "total": 232,
+              "overOdds": -110,
+              "underOdds": -110
+            },
+            "current": {
+              "total": 232.5,
+              "overOdds": -110,
+              "underOdds": -110
+            }
+          },
+          "openDate": "2023-02-22T14:33:46.186Z",
+          "lastUpdated": "2023-02-24T12:33:42.697Z"
+        }
+      ]
+    },
+    {
+      "summary": "Houston Rockets @ Golden State Warriors",
+      "details": {
+        "league": "NBA",
+        "seasonType": "regular",
+        "season": 2022,
+        "conferenceGame": true,
+        "divisionGame": false
+      },
+      "schedule": {
+        "date": "2023-02-25T03:00:00.000Z",
+        "tbaTime": false
+      },
+      "status": "scheduled",
+      "teams": {
+        "away": {
+          "team": "Houston Rockets",
+          "location": "Houston",
+          "mascot": "Rockets",
+          "abbreviation": "HOU",
+          "conference": "Western",
+          "division": "Southwest"
+        },
+        "home": {
+          "team": "Golden State Warriors",
+          "location": "Golden State",
+          "mascot": "Warriors",
+          "abbreviation": "GSW",
+          "conference": "Western",
+          "division": "Pacific"
+        }
+      },
+      "lastUpdated": "2023-02-24T12:41:29.651Z",
+      "gameId": 288069,
+      "venue": {
+        "name": "Chase Center",
+        "neutralSite": false,
+        "city": "San Francisco",
+        "state": "CA"
+      },
+      "odds": [
+        {
+          "spread": {
+            "open": {
+              "away": 9,
+              "home": -9,
+              "awayOdds": -110,
+              "homeOdds": -110
+            },
+            "current": {
+              "away": 9.5,
+              "home": -9.5,
+              "awayOdds": -110,
+              "homeOdds": -110
+            }
+          },
+          "moneyline": {
+            "open": {
+              "awayOdds": 367,
+              "homeOdds": -485
+            },
+            "current": {
+              "awayOdds": 363,
+              "homeOdds": -486
+            }
+          },
+          "openDate": "2023-02-22T14:33:46.230Z",
+          "lastUpdated": "2023-02-24T12:33:42.660Z"
+        }
+      ]
+    },
+    {
+      "summary": "Sacramento Kings @ Los Angeles Clippers",
+      "details": {
+        "league": "NBA",
+        "seasonType": "regular",
+        "season": 2022,
+        "conferenceGame": true,
+        "divisionGame": true
+      },
+      "schedule": {
+        "date": "2023-02-25T03:30:00.000Z",
+        "tbaTime": false
+      },
+      "status": "scheduled",
+      "teams": {
+        "away": {
+          "team": "Sacramento Kings",
+          "location": "Sacramento",
+          "mascot": "Kings",
+          "abbreviation": "SAC",
+          "conference": "Western",
+          "division": "Pacific"
+        },
+        "home": {
+          "team": "Los Angeles Clippers",
+          "location": "Los Angeles",
+          "mascot": "Clippers",
+          "abbreviation": "LAC",
+          "conference": "Western",
+          "division": "Pacific"
+        }
+      },
+      "lastUpdated": "2023-02-24T12:41:29.782Z",
+      "gameId": 288071,
+      "venue": {
+        "name": "Crypto.com Arena",
+        "neutralSite": false,
+        "city": "Los Angeles",
+        "state": "CA"
+      },
+      "odds": [
+        {
+          "spread": {
+            "open": {
+              "away": 6.5,
+              "home": -6.5,
+              "awayOdds": -110,
+              "homeOdds": -110
+            },
+            "current": {
+              "away": 6.5,
+              "home": -6.5,
+              "awayOdds": -110,
+              "homeOdds": -110
+            }
+          },
+          "moneyline": {
+            "open": {
+              "awayOdds": 210,
+              "homeOdds": -260
+            },
+            "current": {
+              "awayOdds": 211,
+              "homeOdds": -259
+            }
+          },
+          "total": {
+            "open": {
+              "total": 231.5,
+              "overOdds": -110,
+              "underOdds": -110
+            },
+            "current": {
+              "total": 232.5,
+              "overOdds": -110,
+              "underOdds": -110
+            }
+          },
+          "openDate": "2023-02-22T14:33:46.274Z",
+          "lastUpdated": "2023-02-24T12:33:42.734Z"
+        }
+      ]
+    },
+    {
+      "summary": "UC Riverside @ Hawaii",
+      "details": {
+        "league": "NCAAB",
+        "seasonType": "regular",
+        "season": 2022,
+        "conferenceGame": true,
+        "divisionGame": true
+      },
+      "schedule": {
+        "date": "2023-02-24T05:00:00.000Z",
+        "tbaTime": false
+      },
+      "status": "final",
+      "teams": {
+        "away": {
+          "team": "UC Riverside",
+          "location": "UC Riverside",
+          "mascot": "Highlanders",
+          "abbreviation": "UCR",
+          "conference": "Big West"
+        },
+        "home": {
+          "team": "Hawaii",
+          "location": "Hawaii",
+          "mascot": "Rainbow Warriors",
+          "abbreviation": "HAW",
+          "conference": "Big West"
+        }
+      },
+      "lastUpdated": "2023-02-24T07:03:16.063Z",
+      "gameId": 293186,
+      "venue": {
+        "name": "Stan Sheriff Center",
+        "neutralSite": false,
+        "city": "Honolulu",
+        "state": "HI"
+      },
+      "odds": [
+        {
+          "spread": {
+            "open": {
+              "away": 4,
+              "home": -4,
+              "awayOdds": -110,
+              "homeOdds": -110
+            },
+            "current": {
+              "away": 3.5,
+              "home": -3.5,
+              "awayOdds": -110,
+              "homeOdds": -110
+            }
+          },
+          "moneyline": {
+            "open": {
+              "awayOdds": 155,
+              "homeOdds": -189
+            },
+            "current": {
+              "awayOdds": 143,
+              "homeOdds": -170
+            }
+          },
+          "total": {
+            "open": {
+              "total": 132,
+              "overOdds": -110,
+              "underOdds": -110
+            },
+            "current": {
+              "total": 131,
+              "overOdds": -110,
+              "underOdds": -110
+            }
+          },
+          "openDate": "2023-02-22T23:43:44.434Z",
+          "lastUpdated": "2023-02-24T05:24:25.500Z"
+        }
+      ],
+      "scoreboard": {
+        "score": {
+          "away": 54,
+          "home": 52,
+          "awayPeriods": [
+            14,
+            40
+          ],
+          "homePeriods": [
+            25,
+            27
+          ]
+        },
+        "currentPeriod": 2,
+        "periodTimeRemaining": "0:00"
+      }
+    },
+    {
+      "summary": "Jacksonville State @ North Alabama",
+      "details": {
+        "league": "NCAAB",
+        "seasonType": "regular",
+        "season": 2022,
+        "conferenceGame": true,
+        "divisionGame": true
+      },
+      "schedule": {
+        "date": "2023-02-25T00:00:00.000Z",
+        "tbaTime": false
+      },
+      "status": "scheduled",
+      "teams": {
+        "away": {
+          "team": "Jacksonville State",
+          "location": "Jacksonville State",
+          "mascot": "Gamecocks",
+          "abbreviation": "JVST",
+          "conference": "Atlantic Sun"
+        },
+        "home": {
+          "team": "North Alabama",
+          "location": "North Alabama",
+          "mascot": "Lions",
+          "abbreviation": "UNA",
+          "conference": "Atlantic Sun"
+        }
+      },
+      "lastUpdated": "2023-02-24T12:41:08.303Z",
+      "gameId": 293165,
+      "venue": {
+        "name": "Flowers Hall",
+        "neutralSite": false,
+        "city": "Florence",
+        "state": "AL"
+      },
+      "odds": [
+        {
+          "spread": {
+            "open": {
+              "away": 2.5,
+              "home": -2.5,
+              "awayOdds": -110,
+              "homeOdds": -110
+            },
+            "current": {
+              "away": 3,
+              "home": -3,
+              "awayOdds": -110,
+              "homeOdds": -110
+            }
+          },
+          "moneyline": {
+            "open": {
+              "awayOdds": 120,
+              "homeOdds": -147
+            },
+            "current": {
+              "awayOdds": 125,
+              "homeOdds": -149
+            }
+          },
+          "total": {
+            "open": {
+              "total": 140.5,
+              "overOdds": -110,
+              "underOdds": -110
+            },
+            "current": {
+              "total": 140.5,
+              "overOdds": -110,
+              "underOdds": -110
+            }
+          },
+          "openDate": "2023-02-23T23:52:55.681Z",
+          "lastUpdated": "2023-02-24T12:39:25.347Z"
+        }
+      ]
+    },
+    {
+      "summary": "Lipscomb @ Stetson",
+      "details": {
+        "league": "NCAAB",
+        "seasonType": "regular",
+        "season": 2022,
+        "conferenceGame": true,
+        "divisionGame": true
+      },
+      "schedule": {
+        "date": "2023-02-25T00:00:00.000Z",
+        "tbaTime": false
+      },
+      "status": "scheduled",
+      "teams": {
+        "away": {
+          "team": "Lipscomb",
+          "location": "Lipscomb",
+          "mascot": "Bisons",
+          "abbreviation": "LIP",
+          "conference": "Atlantic Sun"
+        },
+        "home": {
+          "team": "Stetson",
+          "location": "Stetson",
+          "mascot": "Hatters",
+          "abbreviation": "STET",
+          "conference": "Atlantic Sun"
+        }
+      },
+      "lastUpdated": "2023-02-24T12:41:08.365Z",
+      "gameId": 293173,
+      "venue": {
+        "name": "Edmunds Center",
+        "neutralSite": false,
+        "city": "DeLand",
+        "state": "FL"
+      },
+      "odds": [
+        {
+          "spread": {
+            "open": {
+              "away": 3,
+              "home": -3,
+              "awayOdds": -110,
+              "homeOdds": -110
+            },
+            "current": {
+              "away": 3,
+              "home": -3,
+              "awayOdds": -110,
+              "homeOdds": -110
+            }
+          },
+          "moneyline": {
+            "open": {
+              "awayOdds": 130,
+              "homeOdds": -159
+            },
+            "current": {
+              "awayOdds": 125,
+              "homeOdds": -149
+            }
+          },
+          "total": {
+            "open": {
+              "total": 147.5,
+              "overOdds": -110,
+              "underOdds": -110
+            },
+            "current": {
+              "total": 147.5,
+              "overOdds": -110,
+              "underOdds": -110
+            }
+          },
+          "openDate": "2023-02-23T23:52:55.751Z",
+          "lastUpdated": "2023-02-24T12:39:25.417Z"
+        }
+      ]
+    },
+    {
+      "summary": "Austin Peay @ Florida Gulf Coast",
+      "details": {
+        "league": "NCAAB",
+        "seasonType": "regular",
+        "season": 2022,
+        "conferenceGame": true,
+        "divisionGame": true
+      },
+      "schedule": {
+        "date": "2023-02-25T00:00:00.000Z",
+        "tbaTime": false
+      },
+      "status": "scheduled",
+      "teams": {
+        "away": {
+          "team": "Austin Peay",
+          "location": "Austin Peay",
+          "mascot": "Governors",
+          "abbreviation": "PEAY",
+          "conference": "Atlantic Sun"
+        },
+        "home": {
+          "team": "Florida Gulf Coast",
+          "location": "Florida Gulf Coast",
+          "mascot": "Eagles",
+          "abbreviation": "FGCU",
+          "conference": "Atlantic Sun"
+        }
+      },
+      "lastUpdated": "2023-02-24T12:41:08.417Z",
+      "gameId": 293181,
+      "venue": {
+        "name": "Alico Arena",
+        "neutralSite": false,
+        "city": "Fort Myers",
+        "state": "FL"
+      },
+      "odds": [
+        {
+          "spread": {
+            "open": {
+              "away": 11.5,
+              "home": -11.5,
+              "awayOdds": -110,
+              "homeOdds": -110
+            },
+            "current": {
+              "away": 12,
+              "home": -12,
+              "awayOdds": -110,
+              "homeOdds": -110
+            }
+          },
+          "moneyline": {
+            "open": {
+              "awayOdds": 510,
+              "homeOdds": -769
+            },
+            "current": {
+              "awayOdds": 515,
+              "homeOdds": -758
+            }
+          },
+          "total": {
+            "open": {
+              "total": 134.5,
+              "overOdds": -110,
+              "underOdds": -110
+            },
+            "current": {
+              "total": 134.5,
+              "overOdds": -110,
+              "underOdds": -110
+            }
+          },
+          "openDate": "2023-02-23T23:52:56.858Z",
+          "lastUpdated": "2023-02-24T12:39:25.076Z"
+        }
+      ]
+    },
+    {
+      "summary": "Eastern Kentucky @ Jacksonville",
+      "details": {
+        "league": "NCAAB",
+        "seasonType": "regular",
+        "season": 2022,
+        "conferenceGame": true,
+        "divisionGame": true
+      },
+      "schedule": {
+        "date": "2023-02-25T00:00:00.000Z",
+        "tbaTime": false
+      },
+      "status": "scheduled",
+      "teams": {
+        "away": {
+          "team": "Eastern Kentucky",
+          "location": "Eastern Kentucky",
+          "mascot": "Colonels",
+          "abbreviation": "EKY",
+          "conference": "Atlantic Sun"
+        },
+        "home": {
+          "team": "Jacksonville",
+          "location": "Jacksonville",
+          "mascot": "Dolphins",
+          "abbreviation": "JVIL",
+          "conference": "Atlantic Sun"
+        }
+      },
+      "lastUpdated": "2023-02-24T12:41:08.541Z",
+      "gameId": 293189,
+      "venue": {
+        "name": "Swisher Gymnasium",
+        "neutralSite": false,
+        "city": "Jacksonville",
+        "state": "FL"
+      },
+      "odds": [
+        {
+          "spread": {
+            "open": {
+              "away": 1,
+              "home": -1,
+              "awayOdds": -110,
+              "homeOdds": -110
+            },
+            "current": {
+              "away": 1,
+              "home": -1,
+              "awayOdds": -110,
+              "homeOdds": -110
+            }
+          },
+          "moneyline": {
+            "open": {
+              "awayOdds": -103,
+              "homeOdds": -118
+            },
+            "current": {
+              "awayOdds": -102,
+              "homeOdds": -118
+            }
+          },
+          "total": {
+            "open": {
+              "total": 134,
+              "overOdds": -110,
+              "underOdds": -110
+            },
+            "current": {
+              "total": 134,
+              "overOdds": -110,
+              "underOdds": -110
+            }
+          },
+          "openDate": "2023-02-23T23:52:55.636Z",
+          "lastUpdated": "2023-02-24T12:39:25.167Z"
+        }
+      ]
+    },
+    {
+      "summary": "Bellarmine @ North Florida",
+      "details": {
+        "league": "NCAAB",
+        "seasonType": "regular",
+        "season": 2022,
+        "conferenceGame": true,
+        "divisionGame": true
+      },
+      "schedule": {
+        "date": "2023-02-25T00:00:00.000Z",
+        "tbaTime": false
+      },
+      "status": "scheduled",
+      "teams": {
+        "away": {
+          "team": "Bellarmine",
+          "location": "Bellarmine",
+          "mascot": "Knights",
+          "abbreviation": "BLRM",
+          "conference": "Atlantic Sun"
+        },
+        "home": {
+          "team": "North Florida",
+          "location": "North Florida",
+          "mascot": "Ospreys",
+          "abbreviation": "UNF",
+          "conference": "Atlantic Sun"
+        }
+      },
+      "lastUpdated": "2023-02-24T12:41:08.602Z",
+      "gameId": 293195,
+      "venue": {
+        "name": "UNF Arena",
+        "neutralSite": false,
+        "city": "Jacksonville",
+        "state": "FL"
+      },
+      "odds": [
+        {
+          "spread": {
+            "open": {
+              "away": 5,
+              "home": -5,
+              "awayOdds": -110,
+              "homeOdds": -110
+            },
+            "current": {
+              "away": 5,
+              "home": -5,
+              "awayOdds": -110,
+              "homeOdds": -110
+            }
+          },
+          "moneyline": {
+            "open": {
+              "awayOdds": 180,
+              "homeOdds": -222
+            },
+            "current": {
+              "awayOdds": 174,
+              "homeOdds": -210
+            }
+          },
+          "total": {
+            "open": {
+              "total": 138.5,
+              "overOdds": -110,
+              "underOdds": -110
+            },
+            "current": {
+              "total": 139,
+              "overOdds": -110,
+              "underOdds": -110
+            }
+          },
+          "openDate": "2023-02-23T23:52:56.799Z",
+          "lastUpdated": "2023-02-24T12:39:25.121Z"
+        }
+      ]
+    },
+    {
+      "summary": "Appalachian State @ Georgia Southern",
+      "details": {
+        "league": "NCAAB",
+        "seasonType": "regular",
+        "season": 2022,
+        "conferenceGame": true,
+        "divisionGame": true
+      },
+      "schedule": {
+        "date": "2023-02-25T00:00:00.000Z",
+        "tbaTime": false
+      },
+      "status": "scheduled",
+      "teams": {
+        "away": {
+          "team": "Appalachian State",
+          "location": "Appalachian State",
+          "mascot": "Mountaineers",
+          "abbreviation": "APP",
+          "conference": "Sun Belt"
+        },
+        "home": {
+          "team": "Georgia Southern",
+          "location": "Georgia Southern",
+          "mascot": "Eagles",
+          "abbreviation": "GASO",
+          "conference": "Sun Belt"
+        }
+      },
+      "lastUpdated": "2023-02-24T12:41:08.713Z",
+      "gameId": 293207,
+      "venue": {
+        "name": "Hanner Fieldhouse",
+        "neutralSite": false,
+        "city": "Statesboro",
+        "state": "GA"
+      },
+      "odds": [
+        {
+          "spread": {
+            "open": {
+              "away": 1,
+              "home": -1,
+              "awayOdds": -110,
+              "homeOdds": -110
+            },
+            "current": {
+              "away": 2,
+              "home": -2,
+              "awayOdds": -110,
+              "homeOdds": -110
+            }
+          },
+          "moneyline": {
+            "open": {
+              "awayOdds": 112,
+              "homeOdds": -137
+            },
+            "current": {
+              "awayOdds": 111,
+              "homeOdds": -133
+            }
+          },
+          "total": {
+            "open": {
+              "total": 129,
+              "overOdds": -110,
+              "underOdds": -110
+            },
+            "current": {
+              "total": 130.5,
+              "overOdds": -110,
+              "underOdds": -110
+            }
+          },
+          "openDate": "2023-02-23T21:07:58.453Z",
+          "lastUpdated": "2023-02-24T12:39:25.034Z"
+        }
+      ]
+    },
+    {
+      "summary": "Marshall @ Old Dominion",
+      "details": {
+        "league": "NCAAB",
+        "seasonType": "regular",
+        "season": 2022,
+        "conferenceGame": true,
+        "divisionGame": true
+      },
+      "schedule": {
+        "date": "2023-02-25T00:00:00.000Z",
+        "tbaTime": false
+      },
+      "status": "scheduled",
+      "teams": {
+        "away": {
+          "team": "Marshall",
+          "location": "Marshall",
+          "mascot": "Thundering Herd",
+          "abbreviation": "MRSH",
+          "conference": "Sun Belt"
+        },
+        "home": {
+          "team": "Old Dominion",
+          "location": "Old Dominion",
+          "mascot": "Monarchs",
+          "abbreviation": "ODU",
+          "conference": "Sun Belt"
+        }
+      },
+      "lastUpdated": "2023-02-24T12:41:09.094Z",
+      "gameId": 293224,
+      "venue": {
+        "name": "Chartway Arena",
+        "neutralSite": false,
+        "city": "Norfolk",
+        "state": "VA"
+      },
+      "odds": [
+        {
+          "spread": {
+            "open": {
+              "away": -4,
+              "home": 4,
+              "awayOdds": -110,
+              "homeOdds": -110
+            },
+            "current": {
+              "away": -3.5,
+              "home": 3.5,
+              "awayOdds": -110,
+              "homeOdds": -110
+            }
+          },
+          "moneyline": {
+            "open": {
+              "awayOdds": -185,
+              "homeOdds": 150
+            },
+            "current": {
+              "awayOdds": -166,
+              "homeOdds": 139
+            }
+          },
+          "total": {
+            "open": {
+              "total": 150.5,
+              "overOdds": -110,
+              "underOdds": -110
+            },
+            "current": {
+              "total": 151,
+              "overOdds": -110,
+              "underOdds": -110
+            }
+          },
+          "openDate": "2023-02-23T21:07:58.796Z",
+          "lastUpdated": "2023-02-24T12:39:25.523Z"
+        }
+      ]
+    },
+    {
+      "summary": "Richmond @ Virginia Commonwealth",
+      "details": {
+        "league": "NCAAB",
+        "seasonType": "regular",
+        "season": 2022,
+        "conferenceGame": true,
+        "divisionGame": true
+      },
+      "schedule": {
+        "date": "2023-02-25T00:00:00.000Z",
+        "tbaTime": false
+      },
+      "status": "scheduled",
+      "teams": {
+        "away": {
+          "team": "Richmond",
+          "location": "Richmond",
+          "mascot": "Spiders",
+          "abbreviation": "RICH",
+          "conference": "Atlantic 10"
+        },
+        "home": {
+          "team": "Virginia Commonwealth",
+          "location": "Virginia Commonwealth",
+          "mascot": "Rams",
+          "abbreviation": "VCU",
+          "conference": "Atlantic 10"
+        }
+      },
+      "lastUpdated": "2023-02-24T12:41:09.143Z",
+      "gameId": 293245,
+      "venue": {
+        "name": "Stuart C. Siegel Center",
+        "neutralSite": false,
+        "city": "Richmond",
+        "state": "VA"
+      },
+      "odds": [
+        {
+          "spread": {
+            "open": {
+              "away": 9.5,
+              "home": -9.5,
+              "awayOdds": -110,
+              "homeOdds": -110
+            },
+            "current": {
+              "away": 9,
+              "home": -9,
+              "awayOdds": -110,
+              "homeOdds": -110
+            }
+          },
+          "moneyline": {
+            "open": {
+              "awayOdds": 400,
+              "homeOdds": -556
+            },
+            "current": {
+              "awayOdds": 340,
+              "homeOdds": -447
+            }
+          },
+          "total": {
+            "open": {
+              "total": 133,
+              "overOdds": -110,
+              "underOdds": -110
+            },
+            "current": {
+              "total": 133.5,
+              "overOdds": -110,
+              "underOdds": -110
+            }
+          },
+          "openDate": "2023-02-23T21:07:58.910Z",
+          "lastUpdated": "2023-02-24T12:39:25.623Z"
+        }
+      ]
+    },
+    {
+      "summary": "Fairfield @ Niagara",
+      "details": {
+        "league": "NCAAB",
+        "seasonType": "regular",
+        "season": 2022,
+        "conferenceGame": true,
+        "divisionGame": true
+      },
+      "schedule": {
+        "date": "2023-02-25T00:00:00.000Z",
+        "tbaTime": false
+      },
+      "status": "scheduled",
+      "teams": {
+        "away": {
+          "team": "Fairfield",
+          "location": "Fairfield",
+          "mascot": "Stags",
+          "abbreviation": "FAIR",
+          "conference": "Metro Atlantic"
+        },
+        "home": {
+          "team": "Niagara",
+          "location": "Niagara",
+          "mascot": "Purple Eagles",
+          "abbreviation": "NIAG",
+          "conference": "Metro Atlantic"
+        }
+      },
+      "lastUpdated": "2023-02-24T12:41:09.391Z",
+      "gameId": 293250,
+      "venue": {
+        "name": "Gallagher Center",
+        "neutralSite": false,
+        "city": "Niagara Falls",
+        "state": "NY"
+      },
+      "odds": [
+        {
+          "spread": {
+            "open": {
+              "away": 2,
+              "home": -2,
+              "awayOdds": -110,
+              "homeOdds": -110
+            },
+            "current": {
+              "away": 2,
+              "home": -2,
+              "awayOdds": -110,
+              "homeOdds": -110
+            }
+          },
+          "moneyline": {
+            "open": {
+              "awayOdds": 112,
+              "homeOdds": -137
+            },
+            "current": {
+              "awayOdds": 110,
+              "homeOdds": -132
+            }
+          },
+          "total": {
+            "open": {
+              "total": 124,
+              "overOdds": -110,
+              "underOdds": -110
+            },
+            "current": {
+              "total": 124.5,
+              "overOdds": -110,
+              "underOdds": -110
+            }
+          },
+          "openDate": "2023-02-23T21:07:58.552Z",
+          "lastUpdated": "2023-02-24T12:39:25.210Z"
+        }
+      ]
+    },
+    {
+      "summary": "Xavier @ Seton Hall",
+      "details": {
+        "league": "NCAAB",
+        "seasonType": "regular",
+        "season": 2022,
+        "conferenceGame": true,
+        "divisionGame": true
+      },
+      "schedule": {
+        "date": "2023-02-25T00:00:00.000Z",
+        "tbaTime": false
+      },
+      "status": "scheduled",
+      "teams": {
+        "away": {
+          "team": "Xavier",
+          "location": "Xavier",
+          "mascot": "Musketeers",
+          "abbreviation": "XAV",
+          "conference": "Big East"
+        },
+        "home": {
+          "team": "Seton Hall",
+          "location": "Seton Hall",
+          "mascot": "Pirates",
+          "abbreviation": "HALL",
+          "conference": "Big East"
+        }
+      },
+      "lastUpdated": "2023-02-24T12:41:09.508Z",
+      "gameId": 293260,
+      "venue": {
+        "name": "Prudential Center",
+        "neutralSite": false,
+        "city": "Newark",
+        "state": "NJ"
+      },
+      "odds": [
+        {
+          "spread": {
+            "open": {
+              "away": -1.5,
+              "home": 1.5,
+              "awayOdds": -110,
+              "homeOdds": -110
+            },
+            "current": {
+              "away": -1.5,
+              "home": 1.5,
+              "awayOdds": -110,
+              "homeOdds": -110
+            }
+          },
+          "moneyline": {
+            "open": {
+              "awayOdds": -127,
+              "homeOdds": 104
+            },
+            "current": {
+              "awayOdds": -125,
+              "homeOdds": 105
+            }
+          },
+          "total": {
+            "open": {
+              "total": 141,
+              "overOdds": -110,
+              "underOdds": -110
+            },
+            "current": {
+              "total": 141,
+              "overOdds": -110,
+              "underOdds": -110
+            }
+          },
+          "openDate": "2023-02-23T23:45:55.368Z",
+          "lastUpdated": "2023-02-24T12:39:25.749Z"
+        }
+      ]
+    },
+    {
+      "summary": "St. Peter's @ Canisius",
+      "details": {
+        "league": "NCAAB",
+        "seasonType": "regular",
+        "season": 2022,
+        "conferenceGame": true,
+        "divisionGame": true
+      },
+      "schedule": {
+        "date": "2023-02-25T00:00:00.000Z",
+        "tbaTime": false
+      },
+      "status": "scheduled",
+      "teams": {
+        "away": {
+          "team": "St. Peter's",
+          "location": "St. Peter's",
+          "mascot": "Peacocks",
+          "abbreviation": "SPU",
+          "conference": "Metro Atlantic"
+        },
+        "home": {
+          "team": "Canisius",
+          "location": "Canisius",
+          "mascot": "Golden Griffins",
+          "abbreviation": "CAN",
+          "conference": "Metro Atlantic"
+        }
+      },
+      "lastUpdated": "2023-02-24T12:41:09.191Z",
+      "gameId": 293265,
+      "venue": {
+        "name": "Koessler Athletic Center",
+        "neutralSite": false,
+        "city": "Buffalo",
+        "state": "NY"
+      },
+      "odds": [
+        {
+          "spread": {
+            "open": {
+              "away": 5,
+              "home": -5,
+              "awayOdds": -110,
+              "homeOdds": -110
+            },
+            "current": {
+              "away": 4.5,
+              "home": -4.5,
+              "awayOdds": -110,
+              "homeOdds": -110
+            }
+          },
+          "moneyline": {
+            "open": {
+              "awayOdds": 175,
+              "homeOdds": -210
+            },
+            "current": {
+              "awayOdds": 165,
+              "homeOdds": -195
+            }
+          },
+          "total": {
+            "open": {
+              "total": 132.5,
+              "overOdds": -110,
+              "underOdds": -110
+            },
+            "current": {
+              "total": 132.5,
+              "overOdds": -110,
+              "underOdds": -110
+            }
+          },
+          "openDate": "2023-02-24T12:04:43.035Z",
+          "lastUpdated": "2023-02-24T12:39:25.724Z"
+        }
+      ]
+    },
+    {
+      "summary": "Marist @ Manhattan",
+      "details": {
+        "league": "NCAAB",
+        "seasonType": "regular",
+        "season": 2022,
+        "conferenceGame": true,
+        "divisionGame": true
+      },
+      "schedule": {
+        "date": "2023-02-25T00:00:00.000Z",
+        "tbaTime": false
+      },
+      "status": "scheduled",
+      "teams": {
+        "away": {
+          "team": "Marist",
+          "location": "Marist",
+          "mascot": "Red Foxes",
+          "abbreviation": "MRST",
+          "conference": "Metro Atlantic"
+        },
+        "home": {
+          "team": "Manhattan",
+          "location": "Manhattan",
+          "mascot": "Jaspers",
+          "abbreviation": "MAN",
+          "conference": "Metro Atlantic"
+        }
+      },
+      "lastUpdated": "2023-02-24T12:41:09.254Z",
+      "gameId": 293271,
+      "venue": {
+        "name": "Draddy Gymnasium",
+        "neutralSite": false,
+        "city": "Bronx",
+        "state": "NY"
+      },
+      "odds": [
+        {
+          "spread": {
+            "open": {
+              "away": 4.5,
+              "home": -4.5,
+              "awayOdds": -110,
+              "homeOdds": -110
+            },
+            "current": {
+              "away": 5,
+              "home": -5,
+              "awayOdds": -110,
+              "homeOdds": -110
+            }
+          },
+          "moneyline": {
+            "open": {
+              "awayOdds": 180,
+              "homeOdds": -227
+            },
+            "current": {
+              "awayOdds": 179,
+              "homeOdds": -216
+            }
+          },
+          "total": {
+            "open": {
+              "total": 130,
+              "overOdds": -110,
+              "underOdds": -110
+            },
+            "current": {
+              "total": 130,
+              "overOdds": -110,
+              "underOdds": -110
+            }
+          },
+          "openDate": "2023-02-23T21:07:58.676Z",
+          "lastUpdated": "2023-02-24T12:39:25.467Z"
+        }
+      ]
+    },
+    {
+      "summary": "Iona @ Mount St. Mary's",
+      "details": {
+        "league": "NCAAB",
+        "seasonType": "regular",
+        "season": 2022,
+        "conferenceGame": true,
+        "divisionGame": true
+      },
+      "schedule": {
+        "date": "2023-02-25T00:00:00.000Z",
+        "tbaTime": false
+      },
+      "status": "scheduled",
+      "teams": {
+        "away": {
+          "team": "Iona",
+          "location": "Iona",
+          "mascot": "Gaels",
+          "abbreviation": "IONA",
+          "conference": "Metro Atlantic"
+        },
+        "home": {
+          "team": "Mount St. Mary's",
+          "location": "Mount St. Mary's",
+          "mascot": "Mountaineers",
+          "abbreviation": "MSM",
+          "conference": "Metro Atlantic"
+        }
+      },
+      "lastUpdated": "2023-02-24T12:41:09.320Z",
+      "gameId": 293277,
+      "venue": {
+        "name": "Knott Arena",
+        "neutralSite": false,
+        "city": "Emmitsburg",
+        "state": "MD"
+      },
+      "odds": [
+        {
+          "spread": {
+            "open": {
+              "away": -10.5,
+              "home": 10.5,
+              "awayOdds": -110,
+              "homeOdds": -110
+            },
+            "current": {
+              "away": -10.5,
+              "home": 10.5,
+              "awayOdds": -110,
+              "homeOdds": -110
+            }
+          },
+          "moneyline": {
+            "open": {
+              "awayOdds": -625,
+              "homeOdds": 430
+            },
+            "current": {
+              "awayOdds": -582,
+              "homeOdds": 423
+            }
+          },
+          "total": {
+            "open": {
+              "total": 136.5,
+              "overOdds": -110,
+              "underOdds": -110
+            },
+            "current": {
+              "total": 137.5,
+              "overOdds": -110,
+              "underOdds": -110
+            }
+          },
+          "openDate": "2023-02-23T21:07:58.649Z",
+          "lastUpdated": "2023-02-24T12:39:25.256Z"
+        }
+      ]
+    },
+    {
+      "summary": "Siena @ Rider",
+      "details": {
+        "league": "NCAAB",
+        "seasonType": "regular",
+        "season": 2022,
+        "conferenceGame": true,
+        "divisionGame": true
+      },
+      "schedule": {
+        "date": "2023-02-25T00:00:00.000Z",
+        "tbaTime": false
+      },
+      "status": "scheduled",
+      "teams": {
+        "away": {
+          "team": "Siena",
+          "location": "Siena",
+          "mascot": "Saints",
+          "abbreviation": "SIE",
+          "conference": "Metro Atlantic"
+        },
+        "home": {
+          "team": "Rider",
+          "location": "Rider",
+          "mascot": "Broncs",
+          "abbreviation": "RID",
+          "conference": "Metro Atlantic"
+        }
+      },
+      "lastUpdated": "2023-02-24T12:41:09.448Z",
+      "gameId": 293283,
+      "venue": {
+        "name": "Alumni Gymnasium (Rider)",
+        "neutralSite": false,
+        "city": "Lawrenceville",
+        "state": "NJ"
+      },
+      "odds": [
+        {
+          "spread": {
+            "open": {
+              "away": 1.5,
+              "home": -1.5,
+              "awayOdds": -110,
+              "homeOdds": -110
+            },
+            "current": {
+              "away": 2.5,
+              "home": -2.5,
+              "awayOdds": -110,
+              "homeOdds": -110
+            }
+          },
+          "moneyline": {
+            "open": {
+              "awayOdds": 104,
+              "homeOdds": -127
+            },
+            "current": {
+              "awayOdds": 125,
+              "homeOdds": -148
+            }
+          },
+          "total": {
+            "open": {
+              "total": 135.5,
+              "overOdds": -110,
+              "underOdds": -110
+            },
+            "current": {
+              "total": 135.5,
+              "overOdds": -110,
+              "underOdds": -110
+            }
+          },
+          "openDate": "2023-02-23T23:45:55.318Z",
+          "lastUpdated": "2023-02-24T12:39:25.684Z"
+        }
+      ]
+    },
+    {
+      "schedule": {
+        "date": "2023-02-25T00:00:00.000Z",
+        "tbaTime": false
+      },
+      "summary": "Queens (NC) @ Liberty",
+      "details": {
+        "league": "NCAAB",
+        "seasonType": "regular",
+        "season": 2022,
+        "conferenceGame": false,
+        "divisionGame": false
+      },
+      "status": "scheduled",
+      "teams": {
+        "away": {
+          "team": "Queens (NC)",
+          "location": "Queens (NC)",
+          "mascot": "Royals",
+          "abbreviation": "QUN",
+          "conference": "ASUN"
+        },
+        "home": {
+          "team": "Liberty",
+          "location": "Liberty",
+          "mascot": "Flames",
+          "abbreviation": "LIB",
+          "conference": "Atlantic Sun"
+        }
+      },
+      "lastUpdated": "2023-02-24T12:41:08.473Z",
+      "gameId": 294191,
+      "venue": {
+        "name": "Liberty Arena",
+        "city": "Lynchburg",
+        "country": "US",
+        "neutralSite": false
+      },
+      "odds": [
+        {
+          "spread": {
+            "open": {
+              "away": 15,
+              "home": -15,
+              "awayOdds": -110,
+              "homeOdds": -110
+            },
+            "current": {
+              "away": 15,
+              "home": -15,
+              "awayOdds": -110,
+              "homeOdds": -110
+            }
+          },
+          "moneyline": {
+            "open": {
+              "awayOdds": 775,
+              "homeOdds": -1500
+            },
+            "current": {
+              "awayOdds": 775,
+              "homeOdds": -1500
+            }
+          },
+          "total": {
+            "open": {
+              "total": 147,
+              "overOdds": -110,
+              "underOdds": -110
+            },
+            "current": {
+              "total": 147,
+              "overOdds": -110,
+              "underOdds": -110
+            }
+          },
+          "openDate": "2023-02-24T12:04:42.849Z",
+          "lastUpdated": "2023-02-24T12:39:25.576Z"
+        }
+      ]
+    },
+    {
+      "summary": "Coastal Carolina @ Troy",
+      "details": {
+        "league": "NCAAB",
+        "seasonType": "regular",
+        "season": 2022,
+        "conferenceGame": true,
+        "divisionGame": true
+      },
+      "schedule": {
+        "date": "2023-02-25T00:30:00.000Z",
+        "tbaTime": false
+      },
+      "status": "scheduled",
+      "teams": {
+        "away": {
+          "team": "Coastal Carolina",
+          "location": "Coastal Carolina",
+          "mascot": "Chanticleers",
+          "abbreviation": "CCAR",
+          "conference": "Sun Belt"
+        },
+        "home": {
+          "team": "Troy",
+          "location": "Troy",
+          "mascot": "Trojans",
+          "abbreviation": "TROY",
+          "conference": "Sun Belt"
+        }
+      },
+      "lastUpdated": "2023-02-24T12:41:09.556Z",
+      "gameId": 293212,
+      "venue": {
+        "name": "Trojan Arena",
+        "neutralSite": false,
+        "city": "Troy",
+        "state": "AL"
+      },
+      "odds": [
+        {
+          "spread": {
+            "open": {
+              "away": 10.5,
+              "home": -10.5,
+              "awayOdds": -110,
+              "homeOdds": -110
+            },
+            "current": {
+              "away": 9.5,
+              "home": -9.5,
+              "awayOdds": -110,
+              "homeOdds": -110
+            }
+          },
+          "moneyline": {
+            "open": {
+              "awayOdds": 425,
+              "homeOdds": -588
+            },
+            "current": {
+              "awayOdds": 368,
+              "homeOdds": -489
+            }
+          },
+          "total": {
+            "open": {
+              "total": 143,
+              "overOdds": -110,
+              "underOdds": -110
+            },
+            "current": {
+              "total": 143,
+              "overOdds": -110,
+              "underOdds": -110
+            }
+          },
+          "openDate": "2023-02-23T21:07:59.300Z",
+          "lastUpdated": "2023-02-24T12:39:25.822Z"
+        }
+      ]
+    },
+    {
+      "summary": "Arkansas State @ Louisiana-Monroe",
+      "details": {
+        "league": "NCAAB",
+        "seasonType": "regular",
+        "season": 2022,
+        "conferenceGame": true,
+        "divisionGame": true
+      },
+      "schedule": {
+        "date": "2023-02-25T00:30:00.000Z",
+        "tbaTime": false
+      },
+      "status": "scheduled",
+      "teams": {
+        "away": {
+          "team": "Arkansas State",
+          "location": "Arkansas State",
+          "mascot": "Red Wolves",
+          "abbreviation": "ARST",
+          "conference": "Sun Belt"
+        },
+        "home": {
+          "team": "Louisiana-Monroe",
+          "location": "Louisiana-Monroe",
+          "mascot": "Warhawks",
+          "abbreviation": "ULM",
+          "conference": "Sun Belt"
+        }
+      },
+      "lastUpdated": "2023-02-24T12:41:09.604Z",
+      "gameId": 293236,
+      "venue": {
+        "name": "Fant-Ewing Coliseum",
+        "neutralSite": false,
+        "city": "Monroe",
+        "state": "LA"
+      },
+      "odds": [
+        {
+          "spread": {
+            "open": {
+              "away": 4.5,
+              "home": -4.5,
+              "awayOdds": -110,
+              "homeOdds": -110
+            },
+            "current": {
+              "away": 5,
+              "home": -5,
+              "awayOdds": -110,
+              "homeOdds": -110
+            }
+          },
+          "moneyline": {
+            "open": {
+              "awayOdds": 180,
+              "homeOdds": -227
+            },
+            "current": {
+              "awayOdds": 178,
+              "homeOdds": -214
+            }
+          },
+          "total": {
+            "open": {
+              "total": 129,
+              "overOdds": -110,
+              "underOdds": -110
+            },
+            "current": {
+              "total": 129.5,
+              "overOdds": -110,
+              "underOdds": -110
+            }
+          },
+          "openDate": "2023-02-23T21:07:59.186Z",
+          "lastUpdated": "2023-02-24T12:39:25.781Z"
+        }
+      ]
+    },
+    {
+      "summary": "Kennesaw State @ Central Arkansas",
+      "details": {
+        "league": "NCAAB",
+        "seasonType": "regular",
+        "season": 2022,
+        "conferenceGame": true,
+        "divisionGame": true
+      },
+      "schedule": {
+        "date": "2023-02-25T01:00:00.000Z",
+        "tbaTime": false
+      },
+      "status": "scheduled",
+      "teams": {
+        "away": {
+          "team": "Kennesaw State",
+          "location": "Kennesaw State",
+          "mascot": "Owls",
+          "abbreviation": "KENN",
+          "conference": "Atlantic Sun"
+        },
+        "home": {
+          "team": "Central Arkansas",
+          "location": "Central Arkansas",
+          "mascot": "Bears",
+          "abbreviation": "CARK",
+          "conference": "Atlantic Sun"
+        }
+      },
+      "lastUpdated": "2023-02-24T12:41:09.649Z",
+      "gameId": 293201,
+      "venue": {
+        "name": "Farris Center",
+        "neutralSite": false,
+        "city": "Conway",
+        "state": "AR"
+      },
+      "odds": [
+        {
+          "spread": {
+            "open": {
+              "away": -9.5,
+              "home": 9.5,
+              "awayOdds": -110,
+              "homeOdds": -110
+            },
+            "current": {
+              "away": -9.5,
+              "home": 9.5,
+              "awayOdds": -110,
+              "homeOdds": -110
+            }
+          },
+          "moneyline": {
+            "open": {
+              "awayOdds": -476,
+              "homeOdds": 360
+            },
+            "current": {
+              "awayOdds": -476,
+              "homeOdds": 362
+            }
+          },
+          "total": {
+            "open": {
+              "total": 154.5,
+              "overOdds": -110,
+              "underOdds": -110
+            },
+            "current": {
+              "total": 154.5,
+              "overOdds": -110,
+              "underOdds": -110
+            }
+          },
+          "openDate": "2023-02-23T23:52:56.952Z",
+          "lastUpdated": "2023-02-24T12:39:25.889Z"
+        }
+      ]
+    },
+    {
+      "summary": "Georgia State @ James Madison",
+      "details": {
+        "league": "NCAAB",
+        "seasonType": "regular",
+        "season": 2022,
+        "conferenceGame": true,
+        "divisionGame": true
+      },
+      "schedule": {
+        "date": "2023-02-25T01:00:00.000Z",
+        "tbaTime": false
+      },
+      "status": "scheduled",
+      "teams": {
+        "away": {
+          "team": "Georgia State",
+          "location": "Georgia State",
+          "mascot": "Panthers",
+          "abbreviation": "GAST",
+          "conference": "Sun Belt"
+        },
+        "home": {
+          "team": "James Madison",
+          "location": "James Madison",
+          "mascot": "Dukes",
+          "abbreviation": "JMU",
+          "conference": "Sun Belt"
+        }
+      },
+      "lastUpdated": "2023-02-24T12:41:09.705Z",
+      "gameId": 293218,
+      "venue": {
+        "name": "Atlantic Union Bank Center",
+        "neutralSite": false,
+        "city": "Harrisonburg",
+        "state": "VA"
+      },
+      "odds": [
+        {
+          "spread": {
+            "open": {
+              "away": 13,
+              "home": -13,
+              "awayOdds": -110,
+              "homeOdds": -110
+            },
+            "current": {
+              "away": 14,
+              "home": -14,
+              "awayOdds": -110,
+              "homeOdds": -110
+            }
+          },
+          "moneyline": {
+            "open": {
+              "awayOdds": 675,
+              "homeOdds": -1111
+            },
+            "current": {
+              "awayOdds": 738,
+              "homeOdds": -1262
+            }
+          },
+          "total": {
+            "open": {
+              "total": 140,
+              "overOdds": -110,
+              "underOdds": -110
+            },
+            "current": {
+              "total": 141,
+              "overOdds": -110,
+              "underOdds": -110
+            }
+          },
+          "openDate": "2023-02-23T21:07:59.420Z",
+          "lastUpdated": "2023-02-24T12:39:25.857Z"
+        }
+      ]
+    },
+    {
+      "summary": "Southern Mississippi @ Texas State",
+      "details": {
+        "league": "NCAAB",
+        "seasonType": "regular",
+        "season": 2022,
+        "conferenceGame": true,
+        "divisionGame": true
+      },
+      "schedule": {
+        "date": "2023-02-25T01:00:00.000Z",
+        "tbaTime": false
+      },
+      "status": "scheduled",
+      "teams": {
+        "away": {
+          "team": "Southern Mississippi",
+          "location": "Southern Mississippi",
+          "mascot": "Golden Eagles",
+          "abbreviation": "USM",
+          "conference": "Sun Belt"
+        },
+        "home": {
+          "team": "Texas State",
+          "location": "Texas State",
+          "mascot": "Bobcats",
+          "abbreviation": "TXST",
+          "conference": "Sun Belt"
+        }
+      },
+      "lastUpdated": "2023-02-24T12:41:09.756Z",
+      "gameId": 293230,
+      "venue": {
+        "name": "Strahan Arena at the University Events Center",
+        "neutralSite": false,
+        "city": "San Marcos",
+        "state": "TX"
+      },
+      "odds": [
+        {
+          "spread": {
+            "open": {
+              "away": -4,
+              "home": 4,
+              "awayOdds": -110,
+              "homeOdds": -110
+            },
+            "current": {
+              "away": -2.5,
+              "home": 2.5,
+              "awayOdds": -110,
+              "homeOdds": -110
+            }
+          },
+          "moneyline": {
+            "open": {
+              "awayOdds": -172,
+              "homeOdds": 143
+            },
+            "current": {
+              "awayOdds": -144,
+              "homeOdds": 120
+            }
+          },
+          "total": {
+            "open": {
+              "total": 135,
+              "overOdds": -110,
+              "underOdds": -110
+            },
+            "current": {
+              "total": 136.5,
+              "overOdds": -110,
+              "underOdds": -110
+            }
+          },
+          "openDate": "2023-02-23T21:07:59.465Z",
+          "lastUpdated": "2023-02-24T12:39:25.919Z"
+        }
+      ]
+    },
+    {
+      "summary": "South Alabama @ Louisiana-Lafayette",
+      "details": {
+        "league": "NCAAB",
+        "seasonType": "regular",
+        "season": 2022,
+        "conferenceGame": true,
+        "divisionGame": true
+      },
+      "schedule": {
+        "date": "2023-02-25T02:00:00.000Z",
+        "tbaTime": false
+      },
+      "status": "scheduled",
+      "teams": {
+        "away": {
+          "team": "South Alabama",
+          "location": "South Alabama",
+          "mascot": "Jaguars",
+          "abbreviation": "SALA",
+          "conference": "Sun Belt"
+        },
+        "home": {
+          "team": "Louisiana-Lafayette",
+          "location": "Louisiana-Lafayette",
+          "mascot": "Ragin' Cajuns",
+          "abbreviation": "ULL",
+          "conference": "Sun Belt"
+        }
+      },
+      "lastUpdated": "2023-02-24T12:41:09.796Z",
+      "gameId": 293241,
+      "venue": {
+        "name": "Cajundome",
+        "neutralSite": false,
+        "city": "Lafayette",
+        "state": "LA"
+      },
+      "odds": [
+        {
+          "spread": {
+            "open": {
+              "away": 4.5,
+              "home": -4.5,
+              "awayOdds": -110,
+              "homeOdds": -110
+            },
+            "current": {
+              "away": 4.5,
+              "home": -4.5,
+              "awayOdds": -110,
+              "homeOdds": -110
+            }
+          },
+          "moneyline": {
+            "open": {
+              "awayOdds": 165,
+              "homeOdds": -204
+            },
+            "current": {
+              "awayOdds": 164,
+              "homeOdds": -197
+            }
+          },
+          "total": {
+            "open": {
+              "total": 143.5,
+              "overOdds": -110,
+              "underOdds": -110
+            },
+            "current": {
+              "total": 144,
+              "overOdds": -110,
+              "underOdds": -110
+            }
+          },
+          "openDate": "2023-02-23T21:07:59.686Z",
+          "lastUpdated": "2023-02-24T12:39:26.017Z"
+        }
+      ]
+    },
+    {
+      "summary": "Seattle @ Grand Canyon",
+      "details": {
+        "league": "NCAAB",
+        "seasonType": "regular",
+        "season": 2022,
+        "conferenceGame": true,
+        "divisionGame": true
+      },
+      "schedule": {
+        "date": "2023-02-25T02:00:00.000Z",
+        "tbaTime": false
+      },
+      "status": "scheduled",
+      "teams": {
+        "away": {
+          "team": "Seattle",
+          "location": "Seattle",
+          "mascot": "Redhawks",
+          "abbreviation": "SEA",
+          "conference": "Western"
+        },
+        "home": {
+          "team": "Grand Canyon",
+          "location": "Grand Canyon",
+          "mascot": "Antelopes",
+          "abbreviation": "GCU",
+          "conference": "Western"
+        }
+      },
+      "lastUpdated": "2023-02-24T12:41:09.849Z",
+      "gameId": 293289,
+      "venue": {
+        "name": "GCU Arena",
+        "neutralSite": false,
+        "city": "Phoenix",
+        "state": "AZ"
+      },
+      "odds": [
+        {
+          "spread": {
+            "open": {
+              "away": 4.5,
+              "home": -4.5,
+              "awayOdds": -110,
+              "homeOdds": -110
+            },
+            "current": {
+              "away": 5.5,
+              "home": -5.5,
+              "awayOdds": -110,
+              "homeOdds": -110
+            }
+          },
+          "moneyline": {
+            "open": {
+              "awayOdds": 180,
+              "homeOdds": -222
+            },
+            "current": {
+              "awayOdds": 192,
+              "homeOdds": -233
+            }
+          },
+          "total": {
+            "open": {
+              "total": 140.5,
+              "overOdds": -110,
+              "underOdds": -110
+            },
+            "current": {
+              "total": 140.5,
+              "overOdds": -110,
+              "underOdds": -110
+            }
+          },
+          "openDate": "2023-02-23T21:07:59.575Z",
+          "lastUpdated": "2023-02-24T12:39:25.971Z"
+        }
+      ]
+    },
+    {
+      "summary": "Wyoming @ Colorado State",
+      "details": {
+        "league": "NCAAB",
+        "seasonType": "regular",
+        "season": 2022,
+        "conferenceGame": true,
+        "divisionGame": true
+      },
+      "schedule": {
+        "date": "2023-02-25T02:00:00.000Z",
+        "tbaTime": false
+      },
+      "status": "scheduled",
+      "teams": {
+        "away": {
+          "team": "Wyoming",
+          "location": "Wyoming",
+          "mascot": "Cowboys",
+          "abbreviation": "WYO",
+          "conference": "Mountain West"
+        },
+        "home": {
+          "team": "Colorado State",
+          "location": "Colorado State",
+          "mascot": "Rams",
+          "abbreviation": "CSU",
+          "conference": "Mountain West"
+        }
+      },
+      "lastUpdated": "2023-02-24T12:41:09.901Z",
+      "gameId": 294019,
+      "venue": {
+        "name": "Moby Arena",
+        "neutralSite": false,
+        "city": "Fort Collins",
+        "state": "CO"
+      },
+      "odds": [
+        {
+          "spread": {
+            "open": {
+              "away": 7,
+              "home": -7,
+              "awayOdds": -110,
+              "homeOdds": -110
+            },
+            "current": {
+              "away": 7.5,
+              "home": -7.5,
+              "awayOdds": -110,
+              "homeOdds": -110
+            }
+          },
+          "moneyline": {
+            "open": {
+              "awayOdds": 270,
+              "homeOdds": -345
+            },
+            "current": {
+              "awayOdds": 269,
+              "homeOdds": -337
+            }
+          },
+          "total": {
+            "open": {
+              "total": 140,
+              "overOdds": -110,
+              "underOdds": -110
+            },
+            "current": {
+              "total": 139,
+              "overOdds": -110,
+              "underOdds": -110
+            }
+          },
+          "openDate": "2023-02-23T21:07:59.717Z",
+          "lastUpdated": "2023-02-24T12:39:26.048Z"
+        }
+      ]
+    },
+    {
+      "summary": "Air Force @ UNLV",
+      "details": {
+        "league": "NCAAB",
+        "seasonType": "regular",
+        "season": 2022,
+        "conferenceGame": true,
+        "divisionGame": true
+      },
+      "schedule": {
+        "date": "2023-02-25T02:30:00.000Z",
+        "tbaTime": false
+      },
+      "status": "scheduled",
+      "teams": {
+        "away": {
+          "team": "Air Force",
+          "location": "Air Force",
+          "mascot": "Falcons",
+          "abbreviation": "AFA",
+          "conference": "Mountain West"
+        },
+        "home": {
+          "team": "UNLV",
+          "location": "UNLV",
+          "mascot": "Rebels",
+          "abbreviation": "UNLV",
+          "conference": "Mountain West"
+        }
+      },
+      "lastUpdated": "2023-02-24T12:41:09.943Z",
+      "gameId": 294020,
+      "venue": {
+        "name": "Thomas & Mack Center",
+        "neutralSite": false,
+        "city": "Las Vegas",
+        "state": "NV"
+      },
+      "odds": [
+        {
+          "spread": {
+            "open": {
+              "away": 9.5,
+              "home": -9.5,
+              "awayOdds": -110,
+              "homeOdds": -110
+            },
+            "current": {
+              "away": 9,
+              "home": -9,
+              "awayOdds": -110,
+              "homeOdds": -110
+            }
+          },
+          "moneyline": {
+            "open": {
+              "awayOdds": 370,
+              "homeOdds": -500
+            },
+            "current": {
+              "awayOdds": 339,
+              "homeOdds": -447
+            }
+          },
+          "total": {
+            "open": {
+              "total": 139.5,
+              "overOdds": -110,
+              "underOdds": -110
+            },
+            "current": {
+              "total": 139.5,
+              "overOdds": -110,
+              "underOdds": -110
+            }
+          },
+          "openDate": "2023-02-23T21:07:59.832Z",
+          "lastUpdated": "2023-02-24T12:39:26.080Z"
+        }
+      ]
+    },
+    {
+      "summary": "Nevada @ Fresno State",
+      "details": {
+        "league": "NCAAB",
+        "seasonType": "regular",
+        "season": 2022,
+        "conferenceGame": true,
+        "divisionGame": true
+      },
+      "schedule": {
+        "date": "2023-02-25T04:00:00.000Z",
+        "tbaTime": false
+      },
+      "status": "scheduled",
+      "teams": {
+        "away": {
+          "team": "Nevada",
+          "location": "Nevada",
+          "mascot": "Wolf Pack",
+          "abbreviation": "NEV",
+          "conference": "Mountain West"
+        },
+        "home": {
+          "team": "Fresno State",
+          "location": "Fresno State",
+          "mascot": "Bulldogs",
+          "abbreviation": "FRES",
+          "conference": "Mountain West"
+        }
+      },
+      "lastUpdated": "2023-02-24T12:41:10.000Z",
+      "gameId": 294021,
+      "venue": {
+        "name": "Save Mart Center",
+        "city": "Fresno",
+        "state": "CA",
+        "neutralSite": false
+      },
+      "odds": [
+        {
+          "spread": {
+            "open": {
+              "away": -4,
+              "home": 4,
+              "awayOdds": -110,
+              "homeOdds": -110
+            },
+            "current": {
+              "away": -2.5,
+              "home": 2.5,
+              "awayOdds": -110,
+              "homeOdds": -110
+            }
+          },
+          "moneyline": {
+            "open": {
+              "awayOdds": -189,
+              "homeOdds": 155
+            },
+            "current": {
+              "awayOdds": -144,
+              "homeOdds": 120
+            }
+          },
+          "total": {
+            "open": {
+              "total": 129.5,
+              "overOdds": -110,
+              "underOdds": -110
+            },
+            "current": {
+              "total": 129.5,
+              "overOdds": -110,
+              "underOdds": -110
+            }
+          },
+          "openDate": "2023-02-23T21:07:59.869Z",
+          "lastUpdated": "2023-02-24T12:39:26.113Z"
+        }
+      ]
+    },
+    {
+      "summary": "Ottawa Senators @ Carolina Hurricanes",
+      "details": {
+        "league": "NHL",
+        "seasonType": "regular",
+        "season": 2022,
+        "conferenceGame": true,
+        "divisionGame": false
+      },
+      "schedule": {
+        "date": "2023-02-25T00:00:00.000Z",
+        "tbaTime": false
+      },
+      "status": "scheduled",
+      "teams": {
+        "away": {
+          "team": "Ottawa Senators",
+          "location": "Ottawa",
+          "mascot": "Senators",
+          "abbreviation": "OTT",
+          "conference": "Eastern",
+          "division": "Atlantic"
+        },
+        "home": {
+          "team": "Carolina Hurricanes",
+          "location": "Carolina",
+          "mascot": "Hurricanes",
+          "abbreviation": "CAR",
+          "conference": "Eastern",
+          "division": "Metropolitan"
+        }
+      },
+      "lastUpdated": "2023-02-24T12:41:42.026Z",
+      "gameId": 286730,
+      "venue": {
+        "name": "PNC Arena",
+        "neutralSite": false,
+        "city": "Raleigh",
+        "state": "NC"
+      },
+      "odds": [
+        {
+          "spread": {
+            "open": {
+              "away": 1.5,
+              "home": -1.5,
+              "awayOdds": -120,
+              "homeOdds": -100
+            },
+            "current": {
+              "away": 1.5,
+              "home": -1.5,
+              "awayOdds": -120,
+              "homeOdds": 100
+            }
+          },
+          "moneyline": {
+            "open": {
+              "awayOdds": 216,
+              "homeOdds": -267
+            },
+            "current": {
+              "awayOdds": 205,
+              "homeOdds": -249
+            }
+          },
+          "total": {
+            "open": {
+              "total": 6.5,
+              "overOdds": -105,
+              "underOdds": -115
+            },
+            "current": {
+              "total": 6.5,
+              "overOdds": -105,
+              "underOdds": -115
+            }
+          },
+          "openDate": "2023-02-23T19:34:47.008Z",
+          "lastUpdated": "2023-02-24T12:34:41.310Z"
+        }
+      ]
+    },
+    {
+      "summary": "Buffalo Sabres @ Florida Panthers",
+      "details": {
+        "league": "NHL",
+        "seasonType": "regular",
+        "season": 2022,
+        "conferenceGame": true,
+        "divisionGame": true
+      },
+      "schedule": {
+        "date": "2023-02-25T00:00:00.000Z",
+        "tbaTime": false
+      },
+      "status": "scheduled",
+      "teams": {
+        "away": {
+          "team": "Buffalo Sabres",
+          "location": "Buffalo",
+          "mascot": "Sabres",
+          "abbreviation": "BUF",
+          "conference": "Eastern",
+          "division": "Atlantic"
+        },
+        "home": {
+          "team": "Florida Panthers",
+          "location": "Florida",
+          "mascot": "Panthers",
+          "abbreviation": "FLA",
+          "conference": "Eastern",
+          "division": "Atlantic"
+        }
+      },
+      "lastUpdated": "2023-02-24T12:41:42.064Z",
+      "gameId": 286731,
+      "venue": {
+        "name": "FLA Live Arena",
+        "neutralSite": false,
+        "city": "Sunrise",
+        "state": "FL"
+      },
+      "odds": [
+        {
+          "spread": {
+            "open": {
+              "away": 1.5,
+              "home": -1.5,
+              "awayOdds": -140,
+              "homeOdds": 120
+            },
+            "current": {
+              "away": 1.5,
+              "home": -1.5,
+              "awayOdds": -140,
+              "homeOdds": 125
+            }
+          },
+          "moneyline": {
+            "open": {
+              "awayOdds": 159,
+              "homeOdds": -191
+            },
+            "current": {
+              "awayOdds": 160,
+              "homeOdds": -190
+            }
+          },
+          "total": {
+            "open": {
+              "total": 7,
+              "overOdds": -110,
+              "underOdds": -110
+            },
+            "current": {
+              "total": 7,
+              "overOdds": -110,
+              "underOdds": -110
+            }
+          },
+          "openDate": "2023-02-23T19:34:46.817Z",
+          "lastUpdated": "2023-02-24T12:34:41.429Z"
+        }
+      ]
+    },
+    {
+      "summary": "Montreal Canadiens @ Philadelphia Flyers",
+      "details": {
+        "league": "NHL",
+        "seasonType": "regular",
+        "season": 2022,
+        "conferenceGame": true,
+        "divisionGame": false
+      },
+      "schedule": {
+        "date": "2023-02-25T00:00:00.000Z",
+        "tbaTime": false
+      },
+      "status": "scheduled",
+      "teams": {
+        "away": {
+          "team": "Montreal Canadiens",
+          "location": "Montreal",
+          "mascot": "Canadiens",
+          "abbreviation": "MTL",
+          "conference": "Eastern",
+          "division": "Atlantic"
+        },
+        "home": {
+          "team": "Philadelphia Flyers",
+          "location": "Philadelphia",
+          "mascot": "Flyers",
+          "abbreviation": "PHI",
+          "conference": "Eastern",
+          "division": "Metropolitan"
+        }
+      },
+      "lastUpdated": "2023-02-24T12:41:42.092Z",
+      "gameId": 286732,
+      "venue": {
+        "name": "Wells Fargo Center",
+        "neutralSite": false,
+        "city": "Philadelphia",
+        "state": "PA"
+      },
+      "odds": [
+        {
+          "spread": {
+            "open": {
+              "away": 1.5,
+              "home": -1.5,
+              "awayOdds": -195,
+              "homeOdds": 165
+            },
+            "current": {
+              "away": 1.5,
+              "home": -1.5,
+              "awayOdds": -195,
+              "homeOdds": 160
+            }
+          },
+          "moneyline": {
+            "open": {
+              "awayOdds": 120,
+              "homeOdds": -143
+            },
+            "current": {
+              "awayOdds": 129,
+              "homeOdds": -152
+            }
+          },
+          "total": {
+            "open": {
+              "total": 6.5,
+              "overOdds": -105,
+              "underOdds": -115
+            },
+            "current": {
+              "total": 6.5,
+              "overOdds": 100,
+              "underOdds": -120
+            }
+          },
+          "openDate": "2023-02-23T19:34:46.937Z",
+          "lastUpdated": "2023-02-24T12:34:41.255Z"
+        }
+      ]
+    },
+    {
+      "summary": "Minnesota Wild @ Toronto Maple Leafs",
+      "details": {
+        "league": "NHL",
+        "seasonType": "regular",
+        "season": 2022,
+        "conferenceGame": false,
+        "divisionGame": false
+      },
+      "schedule": {
+        "date": "2023-02-25T00:00:00.000Z",
+        "tbaTime": false
+      },
+      "status": "scheduled",
+      "teams": {
+        "away": {
+          "team": "Minnesota Wild",
+          "location": "Minnesota",
+          "mascot": "Wild",
+          "abbreviation": "MIN",
+          "conference": "Western",
+          "division": "Central"
+        },
+        "home": {
+          "team": "Toronto Maple Leafs",
+          "location": "Toronto",
+          "mascot": "Maple Leafs",
+          "abbreviation": "TOR",
+          "conference": "Eastern",
+          "division": "Atlantic"
+        }
+      },
+      "lastUpdated": "2023-02-24T12:41:42.120Z",
+      "gameId": 286733,
+      "venue": {
+        "name": "Scotiabank Arena",
+        "neutralSite": false,
+        "city": "Toronto",
+        "state": "ON"
+      },
+      "odds": [
+        {
+          "spread": {
+            "open": {
+              "away": 1.5,
+              "home": -1.5,
+              "awayOdds": -165,
+              "homeOdds": 140
+            },
+            "current": {
+              "away": 1.5,
+              "home": -1.5,
+              "awayOdds": -155,
+              "homeOdds": 130
+            }
+          },
+          "moneyline": {
+            "open": {
+              "awayOdds": 159,
+              "homeOdds": -189
+            },
+            "current": {
+              "awayOdds": 168,
+              "homeOdds": -199
+            }
+          },
+          "total": {
+            "open": {
+              "total": 6,
+              "overOdds": -120,
+              "underOdds": -100
+            },
+            "current": {
+              "total": 6,
+              "overOdds": -125,
+              "underOdds": 105
+            }
+          },
+          "openDate": "2023-02-23T19:34:46.751Z",
+          "lastUpdated": "2023-02-24T12:34:41.369Z"
+        }
+      ]
+    },
+    {
+      "summary": "Los Angeles Kings vs New York Islanders",
+      "details": {
+        "league": "NHL",
+        "seasonType": "regular",
+        "season": 2022,
+        "conferenceGame": false,
+        "divisionGame": false
+      },
+      "schedule": {
+        "date": "2023-02-25T00:30:00.000Z",
+        "tbaTime": false
+      },
+      "status": "scheduled",
+      "teams": {
+        "away": {
+          "team": "Los Angeles Kings",
+          "location": "Los Angeles",
+          "mascot": "Kings",
+          "abbreviation": "LAK",
+          "conference": "Western",
+          "division": "Pacific"
+        },
+        "home": {
+          "team": "New York Islanders",
+          "location": "New York",
+          "mascot": "Islanders",
+          "abbreviation": "NYI",
+          "conference": "Eastern",
+          "division": "Metropolitan"
+        }
+      },
+      "lastUpdated": "2023-02-24T12:41:42.185Z",
+      "gameId": 286734,
+      "venue": {
+        "name": "UBS Arena",
+        "neutralSite": true
+      },
+      "odds": [
+        {
+          "spread": {
+            "open": {
+              "away": 1.5,
+              "home": -1.5,
+              "awayOdds": -235,
+              "homeOdds": 195
+            },
+            "current": {
+              "away": 1.5,
+              "home": -1.5,
+              "awayOdds": -240,
+              "homeOdds": 195
+            }
+          },
+          "moneyline": {
+            "open": {
+              "awayOdds": 104,
+              "homeOdds": -124
+            },
+            "current": {
+              "awayOdds": 105,
+              "homeOdds": -125
+            }
+          },
+          "total": {
+            "open": {
+              "total": 5.5,
+              "overOdds": -120,
+              "underOdds": -105
+            },
+            "current": {
+              "total": 5.5,
+              "overOdds": -120,
+              "underOdds": -100
+            }
+          },
+          "openDate": "2023-02-23T19:34:47.087Z",
+          "lastUpdated": "2023-02-24T12:34:41.480Z"
+        }
+      ]
+    },
+    {
+      "summary": "Colorado Avalanche vs Winnipeg Jets",
+      "details": {
+        "league": "NHL",
+        "seasonType": "regular",
+        "season": 2022,
+        "conferenceGame": true,
+        "divisionGame": true
+      },
+      "schedule": {
+        "date": "2023-02-25T01:00:00.000Z",
+        "tbaTime": false
+      },
+      "status": "scheduled",
+      "teams": {
+        "away": {
+          "team": "Colorado Avalanche",
+          "location": "Colorado",
+          "mascot": "Avalanche",
+          "abbreviation": "COL",
+          "conference": "Western",
+          "division": "Central"
+        },
+        "home": {
+          "team": "Winnipeg Jets",
+          "location": "Winnipeg",
+          "mascot": "Jets",
+          "abbreviation": "WPG",
+          "conference": "Western",
+          "division": "Central"
+        }
+      },
+      "lastUpdated": "2023-02-24T12:41:42.248Z",
+      "gameId": 286735,
+      "venue": {
+        "name": "Canada Life Centre",
+        "neutralSite": true
+      },
+      "odds": [
+        {
+          "spread": {
+            "open": {
+              "away": -1.5,
+              "home": 1.5,
+              "awayOdds": 215,
+              "homeOdds": -265
+            },
+            "current": {
+              "away": -1.5,
+              "home": 1.5,
+              "awayOdds": 215,
+              "homeOdds": -260
+            }
+          },
+          "moneyline": {
+            "open": {
+              "awayOdds": -113,
+              "homeOdds": -107
+            },
+            "current": {
+              "awayOdds": -111,
+              "homeOdds": -108
+            }
+          },
+          "total": {
+            "open": {
+              "total": 5.5,
+              "overOdds": -120,
+              "underOdds": -100
+            },
+            "current": {
+              "total": 5.5,
+              "overOdds": -120,
+              "underOdds": 100
+            }
+          },
+          "openDate": "2023-02-23T19:34:47.156Z",
+          "lastUpdated": "2023-02-24T12:34:41.520Z"
+        }
+      ]
+    }
+  ]
+}
